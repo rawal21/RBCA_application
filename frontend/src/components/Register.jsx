@@ -15,7 +15,7 @@ const Register = () => {
 
     try {
       // Sending the registration request to the backend
-      const response = await axios.post('http://localhost:3000/api/auth/register', {  username, email ,password, role });
+      const response = await axios.post('https://rbca-application-2.onrender.com/api/auth/register', {  username, email ,password, role });
       localStorage.setItem('token', response.data.token); 
       
       

@@ -8,7 +8,7 @@ import ModeratorPage from '../pages/ModeratorPage';
 import UserPage from "../pages/UserPage";
 import ProtectedRoute from './components/ProtectedRoute';
 import './App.css';
-import Navbar from './components/NavBar';
+
 
 const App = () => {
   return (
